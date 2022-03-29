@@ -1,4 +1,4 @@
-Application - Méthode Pomodoro
+APPLICATION MOBILE - METHODE POMODORO
 
 Objectif : mieux se focaliser sur les activités à réaliser en leur fixant une durée 
 
