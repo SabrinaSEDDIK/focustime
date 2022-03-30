@@ -18,7 +18,7 @@ export const Timer = ({ focusSubject, clearSubject, onTimeEnd }) => {
   const onEnd = () => {
     Vibration.vibrate([1000, 400, 2000, 400])
     setIsStarted(false)
-    onTimeEnd()
+    onTimeEnd(focusSubject)
   }
 
   useKeepAwake()

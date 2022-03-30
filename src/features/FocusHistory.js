@@ -8,7 +8,7 @@ import { RoundedButton } from '../components/RoundedButton'
 export const FocusHistory = ({ focusHistory }) => {
 
   const renderItem = ({item}) => <Text style={styles.item}>{item}</Text>
-  const flatList = focusHistory.length !== 0 ? <FlatList data={focusHistory} renderItem={renderItem}/> 
+  const flatList = focusHistory.length !== 0 ? <FlatList data={focusHistory} renderItem={renderItem} keyExtractor={(item, index)=> index.toString}/> 
   : <Text style={styles.item}>Nothing yet</Text>
   
   return(
